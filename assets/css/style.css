@@ -9,7 +9,7 @@ body {
     background: url('../images/abstract-stucco-texture-1142801.jpg') #dddddd;
 }
 
-#page-body::after {
+body::after {
     content: '';
     display: block;
     height: 54px;
@@ -34,9 +34,7 @@ header {
     background: #4aaaa5;
     color: #ffffff;
     display: inline;
-    padding: 22px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 30px;
+    padding: 7px;
 }
 
 .nav-item {
