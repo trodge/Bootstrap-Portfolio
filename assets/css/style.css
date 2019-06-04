@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    width: 100%;
 }
 
 body {
@@ -20,14 +21,12 @@ header {
     height: 76px;
     border: none;
     border-bottom: 1px solid #999999;
-    background: #ffffff;
+    background: #f8f9fa;
 }
 
-#top {
-    margin: 0 auto;
-    width: 960px;
-    padding: 20px;
-    background: #ffffff;
+.navbar {
+    margin: auto;
+    width: 85%;
 }
 
 #name {
@@ -58,7 +57,6 @@ header {
 #middle {
     margin: 20px auto;
     padding: 25px;
-    width: 960px;
     border: 1px solid #999999;
     background: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
